@@ -1,6 +1,20 @@
 const http = new easyHTTP;
 
 // Get users
-http.get('https://jsonplaceholder.typicode.com/users')
+// http.get('https://jsonplaceholder.typicode.com/users')
+//   .then(data => console.log(data))
+//   .catch(err => console.log(err));
+
+// User data
+const data = {
+  name: 'John Doe',
+  username: 'johndoe',
+  email: 'john@doe.com'
+}
+
+// Create Post
+http.post('https://jsonplaceholder.typicode.com/users', data)
   .then(data => console.log(data))
   .catch(err => console.log(err));
+
+
