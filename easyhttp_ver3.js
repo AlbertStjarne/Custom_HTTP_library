@@ -34,9 +34,21 @@ class easyHTTP {
         },
         body: JSON.stringify(data)
       });
-      
+
     const resData = await response.json();
     return resData;
+  }
+
+  // Make an HTTP DELETE request
+  async delete(url) {
+    const response = await fetch(url, {
+      method: 'DELETE',
+      headers: {
+        'Content-type': 'application/json'
+      }
+      })
+    const resData = await 'Resource deleted..';
+    return resData;      
   }
 
 }
