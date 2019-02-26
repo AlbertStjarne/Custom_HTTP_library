@@ -9,7 +9,7 @@ Building a custom HTTP library in three versions using different syntax.
 | ver 2   | app_ver2.js, easyhttp_ver2.js| fetch, ES6 classes, promises |
 | ver 3   | app_ver3.js, easyhttp_ver3.js| await async from ES7 |
 
-# Trying the diffrent versions
+# Trying out the different versions
 To try out the different files change the link names in the html file to the file wanted:
 ```
 <script src="easyhttp_ver3.js"></script>
@@ -19,11 +19,26 @@ To try out the different files change the link names in the html file to the fil
 Also uncomment the message that should be run in the app_verX.js file, from start the DELETE user is uncommented.
 
 
-## A screenshot
+## Screenshots
 
-On desktop, add books
+GET request, fetching users
 
-<img src="desktop-add.gif" width=500>
+<img src="GET_request.gif" width=500>
+
+
+POST request, adding user (id: 11)
+
+<img src="POST_request.gif" width=500>
+
+
+PUT request, updating (id: 2)
+
+<img src="PUT_request.gif" width=500>
+
+
+DELETE request, logging delete message
+
+<img src="DELETE_request.gif" width=500>
 
 
 ## Author
