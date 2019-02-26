@@ -23,22 +23,22 @@ Also uncomment the message that should be run in the app_verX.js file, from star
 
 GET request, fetching users
 
-<img src="GET_request.gif" width=500>
+<img src="GET_request.png" width=800>
 
 
 POST request, adding user (id: 11)
 
-<img src="POST_request.gif" width=500>
+<img src="POST_request.png" width=800>
 
 
 PUT request, updating (id: 2)
 
-<img src="PUT_request.gif" width=500>
+<img src="PUT_request.png" width=800>
 
 
 DELETE request, logging delete message
 
-<img src="DELETE_request.gif" width=500>
+<img src="DELETE_request.png" width=800>
 
 
 ## Author
